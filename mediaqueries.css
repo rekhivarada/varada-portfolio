@@ -1,0 +1,13 @@
+@media(max-width:900px){
+  #desktop-nav{display:none}#hamburger-nav{height:72px;position:fixed;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:0 24px;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(16px);z-index:100;border-bottom:1px solid var(--line)}
+  .hamburger{border:0;background:transparent;width:36px;height:30px;display:flex;flex-direction:column;justify-content:space-between;padding:4px;cursor:pointer}.hamburger span{height:2px;background:var(--text);width:100%;transition:.25s}.mobile-menu{position:absolute;top:72px;left:0;right:0;background:var(--surface);border-bottom:1px solid var(--line);display:flex;flex-direction:column;padding:10px 24px;max-height:0;overflow:hidden;transition:max-height .3s}.mobile-menu.open{max-height:350px}.mobile-menu a{padding:12px 0;color:var(--muted)}.mobile-menu .theme-toggle{margin:8px 0 15px}
+  .hero{grid-template-columns:1fr;gap:20px;padding-top:125px;text-align:left}.hero-visual{min-height:430px;order:-1}.portrait-frame{width:310px}.floating-card{display:none}
+  .about-grid,.education-panel{grid-template-columns:1fr;gap:40px}.work-grid{grid-template-columns:1fr}.project-grid{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr;gap:12px}
+  .projects-heading{align-items:flex-start;flex-direction:column}.section{padding-top:90px;padding-bottom:90px}.section-shell{padding-left:22px;padding-right:22px}
+}
+@media(max-width:560px){
+  h1{font-size:3.25rem}.hero-text{font-size:1rem}.hero-actions{flex-direction:column;align-items:stretch}.button{justify-content:center}.social-row{gap:14px;flex-wrap:wrap}
+  .section-heading h2{font-size:2.7rem}.about-intro .lead{font-size:1.5rem}.timeline-item{padding-left:25px}.timeline-content h3{font-size:1.45rem}
+  .project-card h3{font-size:1.45rem}.project-visual{height:175px}.education-panel{padding:28px 22px}.education-panel h2{font-size:2rem}.education-list>div{grid-template-columns:80px 1fr;gap:12px}
+  footer{flex-direction:column;gap:8px}.filters{width:100%;justify-content:space-between}.filter{flex:1}
+}
